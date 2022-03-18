@@ -1,0 +1,18 @@
+#
+# ~/.bash_alias
+#
+
+alias sbash='source ~/.basrc'
+
+alias yoda='ssh ac@192.168.86.70'
+alias omega='ssh ac@192.168.86.5'
+alias boba='ssh ac@192.168.86.71'
+
+alias splinter='ssh acchapm1@splinter.asu.edu -p 396'
+alias agave='ssh accahpm1@agave.asu.edu'
+
+
+alias ls='lsd -h --icon always --icon-theme fancy --color always --group-dirs first'
+alias l='ls -l'
+alias ll='ls -la'
+alias lt='ls -tree'

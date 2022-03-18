@@ -1,0 +1,15 @@
+alias snvim='sudo -E nvim '
+
+alias du='dust -c'
+alias ls='exa'
+alias l='exa -la --icons --group-directories-first'
+alias ll='exa -a1'
+
+alias cat='bat'
+alias man='tldr'
+
+alias ezshl='nvim ~/.zshrc.local'
+alias ezsh='nvim ~/.zshrc'
+alias szsh='source ~/.zshrc'
+
+alias ggping='gping google.com'
