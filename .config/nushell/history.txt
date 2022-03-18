@@ -1,0 +1,13 @@
+ll
+ls
+alias
+which ne
+which nu
+ll
+ls
+which nu
+config path
+nu config path
+clear
+z
+zi

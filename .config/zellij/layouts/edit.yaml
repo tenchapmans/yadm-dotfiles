@@ -1,0 +1,40 @@
+---
+template:
+  direction: Horizontal
+  parts:
+    - direction: Vertical  # part 1
+      borderless: true
+      split_size:
+        Fixed: 1
+      run:
+        plugin:
+          location: "zellij:tab-bar"
+    - direction: Vertical # part 2
+      body: true
+    - direction: Vertical # part 3
+      borderless: true
+      split_size:
+        Fixed: 2
+      run:
+        plugin:
+          location: "zellij:status-bar"
+tabs:
+  - name: "main" # tab 1
+  - name: "nvim" # tab 2
+  - name: "compare" # tab 3
+    direction: Vertical
+    parts:
+      - direction: Horizontal
+        run:
+          command: {cmd: nvim}
+      - direction: Horizontal
+        run:
+          command: {cmd: nvim}
+  - name: "info" # tab 4
+    direction: Vertical
+    parts:
+      - direction: Horizontal
+      - direction: Horizontal
+        parts:
+          - direction: Horizontal
+          - direction: Vertical
