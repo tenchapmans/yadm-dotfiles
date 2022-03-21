@@ -5,6 +5,7 @@
 
 ## Import files (Colors, Fonts, Etc)
 import:
+##  - ~/.xmonad/alacritty/nord.yml
   - ~/.xmonad/alacritty/nord.yml
   - ~/.xmonad/alacritty/fonts.yml
 
@@ -31,7 +32,7 @@ window:
   multiplier: 3
 
 ## Background opacity
-window.opacity: 0.9
+window.opacity: 1.0
 
 ## Cursor
 cursor:

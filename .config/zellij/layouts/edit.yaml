@@ -25,11 +25,7 @@ tabs:
     direction: Vertical
     parts:
       - direction: Horizontal
-        run:
-          command: {cmd: nvim}
       - direction: Horizontal
-        run:
-          command: {cmd: nvim}
   - name: "info" # tab 4
     direction: Vertical
     parts:
@@ -37,4 +33,8 @@ tabs:
       - direction: Horizontal
         parts:
           - direction: Horizontal
+            run:
+              command: {cmd: btm}
           - direction: Vertical
+            run:
+              command: {cmd:wttrin}

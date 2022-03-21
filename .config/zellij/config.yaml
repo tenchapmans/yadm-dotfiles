@@ -519,7 +519,7 @@ plugins:
 # Options:
 #   - detach (Default)
 #   - quit
-on_force_close: quit
+on_force_close: detach
 
 # Send a request for a simplified ui (without arrow fonts) to plugins
 # Options:
@@ -529,7 +529,7 @@ on_force_close: quit
 
 # Choose the path to the default shell that zellij will use for opening new panes
 # Default: $SHELL
-default_shell: bash
+default_shell: fish
 
 # Toggle between having pane frames around the panes
 # Options:
@@ -575,5 +575,5 @@ copy_command: "xclip -selection clipboard" # x11
 # Options:
 #   - system (default)
 #   - primary
-# copy_clipboard: primary
+copy_clipboard: primary
 

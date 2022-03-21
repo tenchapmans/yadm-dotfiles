@@ -10,9 +10,11 @@ alias boba='ssh ac@192.168.86.71'
 
 alias splinter='ssh acchapm1@splinter.asu.edu -p 396'
 alias agave='ssh accahpm1@agave.asu.edu'
-
+alias salt='ssh acchapm1@10.126.25.3'
 
 alias ls='lsd -h --icon always --icon-theme fancy --color always --group-dirs first'
-alias l='ls -l'
-alias ll='ls -la'
-alias lt='ls -tree'
+alias ll='ls -l'
+alias la='ls -la'
+
+
+

@@ -178,6 +178,7 @@ myManageHook = composeAll . concat $
     , [resource =? r --> doFloat | r <- myRFloats]
     , [resource =? i --> doIgnore | i <- myIgnores]
     , [className =? "Alacritty" --> viewShift "1"]
+    , [className =? "org.wezfurlong.wezterm" --> viewShift "1"]
     , [className =? "firefox" --> viewShift "2"]
     , [className =? "Thunar" --> viewShift "3"]
     , [className =? "Geany" --> viewShift "4"]
